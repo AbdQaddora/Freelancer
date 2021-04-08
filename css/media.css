@@ -1,0 +1,60 @@
+@media (max-width:576px){
+    .navbar-light .navbar-brand{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .line{
+        width: 40px;
+    }
+
+    .PORTFOLIO .img{
+        min-height: 140px;
+        margin-bottom: 20px;
+    }
+
+    .ovarlay{
+        height: 140px;
+    }
+    .about .lead{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .about .btn{
+        font-size: 18px;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+    .conact .btn{
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:350px){
+    .navbar-light .navbar-brand{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .line{
+        width: 20px;
+    }
+}
+
+@media (max-width:576px){
+    
+}

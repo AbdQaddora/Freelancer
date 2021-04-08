@@ -1,0 +1,274 @@
+/* first color : #1abc9c */
+/* secound color : #2c3e50 */
+a{
+    cursor: pointer;
+}
+.active{
+    background-color: #1abc9c;
+    border-radius: 7px;
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar-toggler{
+    background-color: #1abc9c;
+    outline: none;
+}
+
+.navbar-toggler:hover{
+    background-color: #13856e;
+}
+
+.navbar-light .navbar-toggler{
+    color: white;
+}
+
+.navbar{
+    background-color: #2c3e50 ;
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link , .navbar-light .navbar-brand{
+    color: white; 
+    font-size: 15px;  
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#1abc9c;
+}
+.navbar-light .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.navbar-light .navbar-brand:hover{color: white;}
+
+.active a:hover{
+    color: white !important;
+}
+header .line , .about .line{
+    background-color: white;
+}
+
+header{
+    padding: 200px 0px 70px 0px;
+    background-color: #1abc9c;
+    color: white;
+}
+
+header img{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+header h3{
+    margin-top: 60px;
+}
+
+/* PORTFOLIO */
+
+.PORTFOLIO{
+    padding: 100px;
+    color: #2c3e50;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.line{
+    background-color: #2c3e50;
+    display: inline-block;
+    height: 3px;
+    width: 130px;
+    position: relative;
+    margin: 0px 5px 0px 5px ;
+    top: -7px;
+}
+
+.PORTFOLIO .img{
+    background-size: cover;
+    min-height: 255px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 0;
+    background-position: center; 
+}
+
+.ovarlay{
+    height: 100%;
+    width: 100%;
+    height: 255px;
+    background-color: #1abc9c;
+    border-radius: 15px;
+    opacity: 0;
+    transition: 0.25s opacity ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.ovarlay:hover{
+    opacity: 0.95;
+}
+
+.ovarlay .fa-5x{
+    color: white;
+}
+
+.img1{background-image: url(../img/portfolio/cabin.png);}
+.img2{background-image: url(../img/portfolio/cake.png);}
+.img3{background-image: url(../img/portfolio/circus.png);}
+.img4{background-image: url(../img/portfolio/game.png);}
+.img5{background-image: url(../img/portfolio/safe.png);}
+.img6{background-image: url(../img/portfolio/submarine.png);}
+
+
+/* About Section */
+.about{
+    padding: 100px;
+    background-color: #1abc9c;
+    color: white;
+}
+
+.about .lead{
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+
+.about .btn{
+    font-size: 27px;
+    margin-top: 35px;
+    color: white;
+    border-radius: 7px;
+    border:2px solid white;
+}
+
+.about .btn:hover{
+    background-color: white;
+    color: #2c3e50;
+}
+
+/* section contact */
+.conact{
+    padding: 70px;
+    color: #2c3e50;
+}
+
+.form-control{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 26px;
+    height: 70px;
+    border: none;
+
+    border-bottom: solid 1px #DDD;
+}
+
+.conact textarea{
+    height: 300px;
+}
+
+.conact .btn{
+    background-color: #1abc9c;
+    color: white;
+    font-size: 25px;
+    padding: 10px 22px 10px 22px;
+    display: block;
+    margin-left: 166px;
+}
+
+.conact .btn:hover{
+    background-color: #13856e;
+}
+
+/* Start section info */
+.info{
+    padding: 70px 0px 20px 0px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+
+.info div{
+    margin-bottom: 30px;
+}
+.info h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.info .fab{
+    font-size: 30px;
+    height: 55px;
+    width: 55px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    transition: 0.3s all ease-in-out;
+}
+
+.info .fab:hover{
+    background-color: white;
+    color: #2c3e50;
+    
+}
+
+.info span{
+    color: #1abc9c;
+}
+.info span:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer{
+    background-color: #1a252f;
+    height: 70px;
+    color: white;
+}
+footer p{
+    line-height: 70px;
+}
+
+
+/* Fixed div */
+.fixed{
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0px;
+    z-index: 999    ;
+    margin: 0 auto;
+    color: #2c3e50;
+    overflow: scroll;
+}
+
+.modal{
+    color: #2c3e50;
+}
+
+.modal img{
+    margin-bottom: 30px;
+    border-radius:15px ;
+}
+
+.modal p{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
